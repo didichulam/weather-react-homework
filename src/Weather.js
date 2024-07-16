@@ -53,6 +53,32 @@ export default function Weather() {
             <img src={weather.icon} alt="weather-icon" />
           </li>
         </ul>
+        <footer>
+          This project was coded by{" "}
+          <a
+            href="https://github.com/didichulam"
+            target="_blank"
+            rel="noreferrer"
+          >
+            Chimdinma
+          </a>
+          , is open-sourced on{" "}
+          <a
+            href="https://github.com/didichulam/weather-react-homework"
+            target="_blank"
+            rel="noreferrer"
+          >
+            GitHub
+          </a>{" "}
+          and hosted on{" "}
+          <a
+            href="https://my-weather-react-homework.netlify.app/"
+            target="_blank"
+            rel="noreferrer"
+          >
+            Netlify
+          </a>
+        </footer>
       </div>
     );
   } else {
